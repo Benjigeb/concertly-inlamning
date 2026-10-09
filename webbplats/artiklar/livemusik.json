@@ -1,0 +1,64 @@
+{
+  "title": "Magin med livemusik – därför älskar vi konserter",
+  "content": [
+    {
+      "type": "h1",
+      "text": "Magin med livemusik – därför älskar vi konserter"
+    },
+    {
+      "type": "p",
+      "text": "Det finns något speciellt med att stå i en publik och höra sin favoritartist framföra en låt live. Konserter handlar inte bara om musik, utan också om gemenskap, känslor och minnen som lever kvar långt efter sista låten."
+    },
+    {
+      "type": "img",
+      "src": "images/konsert.start.jpg",
+      "alt": "Bild från en livemusikkonsert"
+    },
+    {
+      "type": "h2",
+      "text": "En upplevelse utöver det vanliga"
+    },
+    {
+      "type": "p",
+      "text": "När ljuset släcks och publiken börjar jubla skapas en förväntan som är svår att återskapa hemma. Kombinationen av ljud, ljus och artistens närvaro gör varje konsert till en unik upplevelse."
+    },
+    {
+      "type": "h2",
+      "text": "Musik som förenar människor"
+    },
+    {
+      "type": "p",
+      "text": "På en konsert möts människor med olika bakgrunder men med ett gemensamt intresse. Att sjunga med i samma låt tillsammans med tusentals andra kan skapa en stark känsla av samhörighet."
+    },
+    {
+      "type": "h3",
+      "text": "Minnen som stannar kvar"
+    },
+    {
+      "type": "p",
+      "text": "För många blir konserter viktiga minnen. Det kan vara första gången man ser sin favoritartist, en speciell låt eller ett ögonblick som delas med vänner."
+    },
+    {
+      "type": "h2",
+      "text": "Så får du ut mer av din konsertupplevelse"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Planera resan till arenan och kontrollera insläppstiderna.",
+        "Lyssna på artistens musik inför konserten.",
+        "Kom i god tid om du vill köpa merchandise.",
+        "Ta några bilder, men glöm inte att njuta av stunden.",
+        "Visa hänsyn till andra i publiken."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Livemusikens framtid"
+    },
+    {
+      "type": "p",
+      "text": "Oavsett om det handlar om en intim klubbspelning eller en stor arenakonsert fortsätter livemusik att föra människor samman. Det är mötet mellan artist och publik som gör upplevelsen så speciell."
+    }
+  ]
+}

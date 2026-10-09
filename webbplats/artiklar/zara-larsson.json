@@ -1,0 +1,64 @@
+{
+  "title": "Zara Larsson – från svensk talang till internationell popstjärna",
+  "content": [
+    {
+      "type": "h1",
+      "text": "Zara Larsson – från svensk talang till internationell popstjärna"
+    },
+    {
+      "type": "p",
+      "text": "Zara Larsson är en av Sveriges mest framgångsrika popartister. Med sin starka röst, energiska scenshower och internationella hits har hon byggt upp en karriär som sträcker sig långt utanför Sveriges gränser."
+    },
+    {
+      "type": "img",
+      "src": "images/zara-larsson.jpg",
+      "alt": "Zara Larsson uppträder på scen"
+    },
+    {
+      "type": "h2",
+      "text": "Från Talang till internationell framgång"
+    },
+    {
+      "type": "p",
+      "text": "Zara Larsson fick sitt stora genombrott när hon vann TV-programmet Talang år 2008. Hon var då bara tio år gammal. Sedan dess har hon utvecklats till en internationellt etablerad artist."
+    },
+    {
+      "type": "h2",
+      "text": "Hits som erövrat världen"
+    },
+    {
+      "type": "p",
+      "text": "Under sin karriär har Zara släppt flera låtar som nått en stor publik. Hennes musik blandar pop, dansmusik och starka melodier."
+    },
+    {
+      "type": "h3",
+      "text": "Några av hennes mest kända låtar"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Lush Life",
+        "Never Forget You",
+        "Symphony",
+        "Ain't My Fault",
+        "Ruin My Life"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "En artist som älskar scenen"
+    },
+    {
+      "type": "p",
+      "text": "Zara Larsson är känd för sina energifyllda liveframträdanden. Med dans, ljuseffekter och en stark scennärvaro skapar hon konserter där publiken får uppleva både musik och show."
+    },
+    {
+      "type": "h2",
+      "text": "En svensk popstjärna med global publik"
+    },
+    {
+      "type": "p",
+      "text": "Zara Larssons resa visar hur en svensk artist kan nå ut till lyssnare över hela världen. Hon fortsätter att utveckla sin musik och skapa nya upplevelser för sina fans."
+    }
+  ]
+}

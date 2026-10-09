@@ -1,0 +1,51 @@
+/* Artikelsidans layout */
+.article-page {
+  max-width: 900px;
+  margin: 60px auto 100px;
+  padding: 0 30px;
+}
+.article-back {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #ff4db8;
+  text-decoration: none;
+  font-weight: 600;
+}
+.article-back:hover {
+  text-decoration: underline;
+}
+/* Artikelns rubriker och text */
+#artikel {
+  background: #1c102d;
+  border: 1px solid #49305c;
+  border-radius: 20px;
+  padding: 45px;
+  color: #ffffff;
+}
+#artikel h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+#artikel h2 {
+  font-size: 27px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #ff80ce;
+}
+#artikel p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+#artikel img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 25px 0;
+}
+#artikel a {
+  color: #ff80ce;
+}

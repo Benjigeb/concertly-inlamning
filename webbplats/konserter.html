@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Upptäck kommande konserter i Sverige med Concertly. Hitta artister, städer, arenor och biljettinformation."
+    />
+    <title>Kommande konserter i Sverige | Concertly</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigering för Concertly -->
+    <header class="site-header">
+      <a href="index.html" class="logo">CONCERTLY<span>.</span></a>
+      <nav aria-label="Huvudmeny">
+        <a href="index.html">Hem</a>
+        <a href="index.html#artiklar">Artiklar</a>
+        <a href="konserter.html" aria-current="page">Konserter</a>
+        <a href="index.html#om-oss">Om oss</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Introduktion till konsertsidan -->
+      <section class="concert-intro">
+        <p class="eyebrow">LIVE MUSIC IN SWEDEN</p>
+        <h1>Kommande <span>konserter.</span></h1>
+        <p>
+          Din guide till livemusik i hela Sverige. Upptäck nästa stora
+          konsertupplevelse!
+        </p>
+      </section>
+      <!-- Besökaren kan filtrera konserterna efter stad -->
+      <section class="concert-section" aria-labelledby="concert-heading">
+        <div class="concert-top">
+          <h2 id="concert-heading">Hitta din nästa <span>konsert.</span></h2>
+          <label for="city-filter">Välj stad:</label>
+          <select id="city-filter">
+            <option value="alla">Hela Sverige</option>
+            <option value="stockholm">Stockholm</option>
+            <option value="goteborg">Göteborg</option>
+            <option value="malmo">Malmö</option>
+            <option value="ovrigt">Övriga Sverige</option>
+          </select>
+        </div>
+
+        <div class="concert-grid" id="concert-grid">
+          <!-- Stockholm: två internationella artister -->
+          <article class="concert-card" data-city="stockholm">
+            <img
+              src="images/teddy-swims.jpg"
+              alt="Teddy Swims"
+              class="concert-image"
+            />
+            <div class="concert-card-content">
+              <span class="card-category">STOCKHOLM</span>
+              <h3>Teddy Swims</h3>
+              <p>4 mars 2027 · Avicii Arena</p>
+            </div>
+          </article>
+          <article class="concert-card" data-city="stockholm">
+            <img
+              src="images/hilary-duff.jpg"
+              alt="Hilary Duff"
+              class="concert-image"
+            />
+            <div class="concert-card-content">
+              <span class="card-category">STOCKHOLM</span>
+              <h3>Hilary Duff</h3>
+              <p>22 maj 2027 · Avicii Arena</p>
+            </div>
+          </article>
+          <!-- Göteborg: två konsertkort -->
+          <article class="concert-card" data-city="goteborg">
+            <img
+              src="images/bob-dylan.jpg"
+              alt="Bob Dylan"
+              class="concert-image"
+            />
+            <div class="concert-card-content">
+              <span class="card-category">GÖTEBORG</span>
+              <h3>Bob Dylan</h3>
+              <p>19 oktober 2026 · Scandinavium</p>
+            </div>
+          </article>
+          <article class="concert-card" data-city="goteborg">
+            <img
+              src="images/bryan-adams.jpg"
+              alt="Bryan Adams"
+              class="concert-image"
+            />
+            <div class="concert-card-content">
+              <span class="card-category">GÖTEBORG</span>
+              <h3>Bryan Adams</h3>
+              <p>2 maj 2027 · Göteborg</p>
+            </div>
+          </article>
+          <!-- Malmö: ett konsertkort -->
+          <article class="concert-card" data-city="malmo">
+            <img
+              src="images/bryan-adams.jpg"
+              alt="Bryan Adams"
+              class="concert-image"
+            />
+            <div class="concert-card-content">
+              <span class="card-category">MALMÖ</span>
+              <h3>Bryan Adams</h3>
+              <p>30 april 2027 · Malmö Arena</p>
+            </div>
+          </article>
+          <!-- Övriga Sverige: Dalhalla i Rättvik -->
+          <article class="concert-card" data-city="ovrigt">
+            <img
+              src="images/rod-stewart.jpg"
+              alt="Rod Stewart"
+              class="concert-image"
+            />
+            <div class="concert-card-content">
+              <span class="card-category">RÄTTVIK</span>
+              <h3>Rod Stewart</h3>
+              <p>11 juni 2027 · Dalhalla</p>
+            </div>
+          </article>
+        </div>
+        <p id="no-concerts" hidden>
+          Inga konserter visas för den valda staden ännu.
+        </p>
+      </section>
+    </main>
+    <!-- Sidfot -->
+    <footer class="site-footer">
+      <p>© 2026 Concertly. För dig som älskar livemusik.</p>
+      <a href="index.html">Till startsidan ↑</a>
+    </footer>
+    <script src="konserter.js" defer></script>
+  </body>
+</html>

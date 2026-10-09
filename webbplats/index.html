@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Sidans titel och beskrivning för sökmotorer -->
+    <title>Concertly – Musiknyheter, artister och konserter</title>
+    <meta
+      name="description"
+      content="Upptäck de senaste musiknyheterna, inspirerande artistporträtt och spännande konserter på Concertly. Din plats för allt inom musik och liveupplevelser."
+    />
+    <!-- Kopplar startsidan till vår externa CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Laddar JavaScript när HTML-sidan är färdig -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Sidhuvud med logotyp och navigering -->
+    <header class="site-header">
+      <a href="index.html" class="logo">CONCERTLY<span>.</span></a>
+      <nav aria-label="Huvudmeny">
+        <a href="index.html">Hem</a>
+        <a href="#artiklar">Artiklar</a>
+        <a href="konserter.html">Konserter</a>
+        <a href="#om-oss">Om oss</a>
+        <a href="#nyhetsbrev">Nyhetsbrev</a>
+      </nav>
+    </header>
+    <!-- Sökruta för artister, konserter och artiklar -->
+    <section class="search-section" aria-label="Sök på Concertly">
+      <form id="search-form" role="search">
+        <label for="search-input">Vad letar du efter?</label>
+        <div class="search-box">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Sök efter artister, konserter eller artiklar..."
+            required
+          />
+          <button type="submit">Sök →</button>
+        </div>
+      </form>
+      <p id="search-message" role="status" aria-live="polite"></p>
+    </section>
+    <main>
+      <!-- Huvudsektion med sidans viktigaste rubrik -->
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">YOUR FRONT ROW TO MUSIC</p>
+          <h1>Musiken börjar <span>här.</span></h1>
+          <p class="hero-description">
+            De senaste musiknyheterna, artisterna du älskar och konserterna du
+            inte vill missa. Välkommen till Concertly.
+          </p>
+          <a href="#artiklar" class="button">Utforska artiklar</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="images/konsert.start.jpg"
+            alt="Publik framför en upplyst scen under en konsert"
+          />
+        </div>
+      </section>
+      <!-- Artikelkort som senare länkas till våra tre JSON-artiklar -->
+      <section id="artiklar" class="articles-section">
+        <div class="section-heading">
+          <p class="eyebrow">THE LATEST</p>
+          <h2>Senaste <span>artiklarna.</span></h2>
+          <p>Nyheter, artistporträtt och allt som händer inom musiken.</p>
+        </div>
+        <div class="article-grid">
+          <article class="article-card">
+            <div class="card-category">ARTISTPORTRÄTT</div>
+            <h3>Zara Larsson – från Sverige till världsscenen</h3>
+            <p>
+              Upptäck resan bakom en av Sveriges största internationella
+              popartister.
+            </p>
+            <a href="artikel.html?id=zara-larsson">
+              Läs artikeln <span aria-hidden="true">→</span>
+            </a>
+          </article>
+          <article class="article-card">
+            <div class="card-category">POP & KULTUR</div>
+            <h3>Sabrina Carpenter och hennes popgenombrott</h3>
+            <p>
+              Hur Sabrina Carpenter blev ett av de mest uppmärksammade namnen
+              inom modern pop.
+            </p>
+            <a href="artikel.html?id=sabrina-carpenter">
+              Läs artikeln <span aria-hidden="true">→</span>
+            </a>
+          </article>
+          <article class="article-card">
+            <div class="card-category">LIVE & KONSERTER</div>
+            <h3>Varför livemusik skapar oförglömliga upplevelser</h3>
+            <p>
+              Från publikhav till scenshower – därför betyder konserter så
+              mycket för musikfans.
+            </p>
+            <a href="artikel.html?id=livemusik">
+              Läs artikeln <span aria-hidden="true">→</span>
+            </a>
+          </article>
+        </div>
+      </section>
+      <!-- Kort presentation av webbplatsen -->
+      <section id="om-oss" class="about-section">
+        <p class="eyebrow">ABOUT CONCERTLY</p>
+        <h2>För dig som lever för <span>musiken.</span></h2>
+        <p>
+          Concertly är en digital mötesplats för alla som älskar musik, artister
+          och liveupplevelser. Vi samlar berättelser, inspiration och nyheter
+          från musikvärlden.
+        </p>
+      </section>
+      <!-- Formulär med JavaScript-baserad bekräftelse -->
+      <section id="nyhetsbrev" class="newsletter-section">
+        <p class="eyebrow">STAY IN THE LOOP</p>
+        <h2>Missa aldrig en <span>beat.</span></h2>
+        <p>Få inspiration och musiknyheter direkt till din inkorg.</p>
+        <form id="newsletter-form">
+          <label for="email">Din e-postadress</label>
+          <div class="form-row">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="namn@exempel.se"
+              required
+            />
+            <button type="submit">Prenumerera</button>
+          </div>
+        </form>
+        <div id="form-message" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+    <!-- Sidfot med webbplatsens namn -->
+    <footer class="site-footer">
+      <p>© 2026 Concertly. Made for music lovers.</p>
+      <a href="index.html">Tillbaka till startsidan ↑</a>
+    </footer>
+  </body>
+</html>
